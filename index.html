@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Areeba Kamran | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <button id="toggle-dark">🌙</button>
+
+  <header class="hero" id="top">
+    <div class="container">
+      <h1>Areeba Kamran</h1>
+      <p>Developer · Researcher · Blogger</p>
+    </div>
+  </header>
+
+  <section class="intro section">
+    <div class="container">
+      <h2>Hi, I'm Areeba 👋</h2>
+      <p>
+        I'm passionate about building things for the web — from interactive coding projects to research-driven tools. My journey in tech is rooted in curiosity, creativity, and a love for solving real-world problems through code.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects section">
+    <div class="container">
+      <h2>What I’m Working On</h2>
+      <ul>
+        <li>📌 Frontend web projects (JavaScript, APIs, UI/UX)</li>
+        <li>📖 A technical blog — <span class="coming-soon">Coming Soon</span></li>
+        <li>📄 Research Paper — 
+          <a href="paper.pdf" download target="_blank" class="button">Download PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact section">
+    <div class="container">
+      <h2>Let’s Connect</h2>
+      <p>
+        Find me on <a href="https://github.com/areebakamran" target="_blank">GitHub</a>  
+        or email me at <a href="mailto:areebakamran923@gmail.com">areebakamran923@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Areeba Kamran. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Dark Mode Toggle
+    const toggleBtn = document.getElementById('toggle-dark');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+
+</body>
+</html>
